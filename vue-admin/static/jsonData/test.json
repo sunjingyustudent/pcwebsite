@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "joinMax": "10",
+      "clicks": 2393,
+      "content": "",
+      "travelPic": "http://ac-afkydcqq.clouddn.com/f7a0443a710ceded28ef.jpg",
+      "releaseTime": "2017-02-28 13:37:50",
+      "destination": "江西 九江 庐山区 江西省九江市",
+      "objectId": "58b50cae570c350058aaeb25",
+      "createdAt": "2017-02-28T05:37:50.528Z",
+      "updatedAt": "2017-05-08T13:05:22.004Z"
+    }
+  ],
+  "code": 200,
+  "msg": "请求成功"
+}

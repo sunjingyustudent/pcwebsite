@@ -1,0 +1,249 @@
+.chat{
+  width: 559px;
+  height: 100%;
+  .top {
+    width: 100%;
+    height: 76px;
+    background-color: orange;
+    overflow: hidden;
+    .left{
+      margin-top: 13px;
+      margin-left: 10px;
+     .img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        background-image: url(../images/head_small.png);
+        float:left;
+      }
+      .use {
+        margin-top: 9px;
+        margin-left: 5px;
+        font: normal normal 24px PingFangSC-Regular;
+        color:#ffffff;
+        float:left;
+      }
+    }
+    .right {
+      display: inline-block;
+      margin-right: 10px 10px;
+      width: 13px;
+      height: 13px;
+      font-weight: 700;
+      font-family: Arial, sans-serif;
+      transform:scaleX(1.2);
+      color: #ffffff;
+
+    }
+  }
+  .center {
+    height: 386px;
+    background-color: #fafdff;
+    overflow-y: scroll;
+    .clkMore {
+      width: 100%;
+      text-align: center;
+      p {
+        display: inline-block;
+        padding: 4px 6px;
+        cursor: pointer;
+      }
+    }
+    ul {
+      li {
+        div.fl {
+          padding: 0px 5px;
+          margin: 5px 0;
+          span{
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            background-image: url(../images/head_small.png)
+          }
+          p{
+            border-radius: 4px;
+            -moz-border-radius: 4px;
+            -webkit-border-radius: 4px;
+            // img{
+              // width: 49px;
+            // }
+          }
+          p.usertitle{
+            font: normal  12px PingFangSC-Regular;
+            color: #aaaaab;
+          }
+          p.userMessage{
+            max-width:460px;
+            word-wrap:break-word;
+            word-break:break-all;
+            // width: 300px;
+            padding: 5px;
+            font-size: 12px;
+            background-color: #e8f0ef;
+            color: #000000;
+            img{
+              display: inline-block;
+            }
+          }
+          img{
+            max-width:300px;
+          }
+        }
+        div.fr{
+          margin-right: 16px;
+          padding: 5px;
+          span{
+            width: 100%;
+            text-align:right;
+            display: inline-block;
+            padding: 5px;
+            font: normal normal 12px PingFangSC-Regular; 
+            color: #9B9B9B;
+          }
+          p{
+            padding: 5px;
+            max-width:460px;
+            word-wrap:break-word;
+            word-break:break-all;
+            font: normal normal 12px PingFangSC-Regular;
+            background-color: #ffe2ab;
+            color: #000000;
+            border-radius: 4px;
+            -moz-border-radius: 4px;
+            -webkit-border-radius: 4px;
+            img{
+              max-width: 300px;
+            }
+          }
+          img{
+            max-width: 300px;
+          }
+        }
+      }
+    }
+  }
+  .bottom {
+    position: relative;
+    box-sizing : border-box;
+    -moz-box-sizing : border-box;
+    -webkit-box-sizing : border-box;
+    box-shadow: -3px 0px 3px 3px #eeeeee;
+    -moz-box-shadow: -3px 0px 3px 3px #eeeeee;
+    -webkit-box-shadow: -3px 0px 3px 3px #eeeeee;
+    div{
+      background-color: #ffffff;
+      ul{
+        li{
+          box-sizing : border-box;
+          -moz-box-sizing : border-box;
+          -webkit-box-sizing : border-box;
+          margin: 0 6px;
+          img{
+            width: 20px;
+            height: 20px;
+          }
+          }
+      }
+    }
+    div.allEmoji{
+      position: absolute;
+      bottom: 88px;
+      left: 0;
+    }
+    .up {
+       height: 30px;
+       position: relative;
+      //  img{
+        //  position: absolute;
+        //  top: 20px;
+        //  z-index: 30;
+        //  width: 50px;
+      //  }
+      //  line-height: 30px;
+       span {
+         cursor: pointer;
+         margin: 5px;
+         display: inline-block;
+         em.sendPic{
+          //  overflow: hidden;
+          //  box-sizing: border-box;
+          //  margin-top: 4px;
+           background-image: url(../images/sendImg.png);
+           background-size: 24px;
+           display: inline-block;
+           width: 23px;
+           height: 19px;
+          //  position: relative;
+          //  right: 0px;
+         }
+        //  label{
+        //    display: inline-block;
+        //    width: 30px;
+        //    height: 30px;
+        //    background-color: #ccc;
+        //    input{
+        //    width: 2px;
+        //    height: 2px;
+        //    opacity: 1;
+        //    background-color: orange;
+        //    font-size: 0px;
+        //  }
+        //  }
+       }
+       span.emojiImg{
+         width: 22px;
+         height: 22px;
+         background-size: 22px;
+         background-image: url(../images/small.png);
+         position: relative;
+         bottom: -3px;
+         left: 3px;
+       }
+    }
+    .down {
+      position: relative;
+      // border: 1px solid #ccc;
+      textarea {
+        padding:5px;
+        height: 80px;
+        width: 100%;
+        resize: none;
+        font: normal normal 12px PingFangSC-Regular;
+      }
+      button {
+        width: 50px;
+        height: 32px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        position: absolute;
+        background-color:#fd5e02;
+        font: normal normal 16px PingFangSC-Regular;
+        color: #ffffff;
+        right: 10px;
+        bottom: 10px;
+        cursor: pointer;
+      }
+    }
+
+  }
+}
+
+// 上传图片
+.avatar-uploader .el-upload {
+    // border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.avatar-uploader .el-upload:hover {
+    border-color: #20a0ff;
+}

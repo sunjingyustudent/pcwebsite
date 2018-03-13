@@ -1,0 +1,208 @@
+.chat {
+  width: 559px;
+  height: 100%;
+}
+.chat .top {
+  width: 100%;
+  height: 76px;
+  background-color: orange;
+  overflow: hidden;
+}
+.chat .top .left {
+  margin-top: 13px;
+  margin-left: 10px;
+}
+.chat .top .left .img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-image: url(../images/head_small.png);
+  float: left;
+}
+.chat .top .left .use {
+  margin-top: 9px;
+  margin-left: 5px;
+  font: normal normal 24px PingFangSC-Regular;
+  color: #ffffff;
+  float: left;
+}
+.chat .top .right {
+  display: inline-block;
+  margin-right: 10px 10px;
+  width: 13px;
+  height: 13px;
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+  transform: scaleX(1.2);
+  color: #ffffff;
+}
+.chat .center {
+  height: 386px;
+  background-color: #fafdff;
+  overflow-y: scroll;
+}
+.chat .center .clkMore {
+  width: 100%;
+  text-align: center;
+}
+.chat .center .clkMore p {
+  display: inline-block;
+  padding: 4px 6px;
+  cursor: pointer;
+}
+.chat .center ul li div.fl {
+  padding: 0px 5px;
+  margin: 5px 0;
+}
+.chat .center ul li div.fl span {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-image: url(../images/head_small.png);
+}
+.chat .center ul li div.fl p {
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+.chat .center ul li div.fl p.usertitle {
+  font: normal 12px PingFangSC-Regular;
+  color: #aaaaab;
+}
+.chat .center ul li div.fl p.userMessage {
+  max-width: 460px;
+  word-wrap: break-word;
+  word-break: break-all;
+  padding: 5px;
+  font-size: 12px;
+  background-color: #e8f0ef;
+  color: #000000;
+}
+.chat .center ul li div.fl p.userMessage img {
+  display: inline-block;
+}
+.chat .center ul li div.fl img {
+  max-width: 300px;
+}
+.chat .center ul li div.fr {
+  margin-right: 16px;
+  padding: 5px;
+}
+.chat .center ul li div.fr span {
+  width: 100%;
+  text-align: right;
+  display: inline-block;
+  padding: 5px;
+  font: normal normal 12px PingFangSC-Regular;
+  color: #9B9B9B;
+}
+.chat .center ul li div.fr p {
+  padding: 5px;
+  max-width: 460px;
+  word-wrap: break-word;
+  word-break: break-all;
+  font: normal normal 12px PingFangSC-Regular;
+  background-color: #ffe2ab;
+  color: #000000;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+.chat .center ul li div.fr p img {
+  max-width: 300px;
+}
+.chat .center ul li div.fr img {
+  max-width: 300px;
+}
+.chat .bottom {
+  position: relative;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-shadow: -3px 0px 3px 3px #eeeeee;
+  -moz-box-shadow: -3px 0px 3px 3px #eeeeee;
+  -webkit-box-shadow: -3px 0px 3px 3px #eeeeee;
+}
+.chat .bottom div {
+  background-color: #ffffff;
+}
+.chat .bottom div ul li {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0 6px;
+}
+.chat .bottom div ul li img {
+  width: 20px;
+  height: 20px;
+}
+.chat .bottom div.allEmoji {
+  position: absolute;
+  bottom: 88px;
+  left: 0;
+}
+.chat .bottom .up {
+  height: 30px;
+  position: relative;
+}
+.chat .bottom .up span {
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+}
+.chat .bottom .up span em.sendPic {
+  background-image: url(../images/sendImg.png);
+  background-size: 24px;
+  display: inline-block;
+  width: 23px;
+  height: 19px;
+}
+.chat .bottom .up span.emojiImg {
+  width: 22px;
+  height: 22px;
+  background-size: 22px;
+  background-image: url(../images/small.png);
+  position: relative;
+  bottom: -3px;
+  left: 3px;
+}
+.chat .bottom .down {
+  position: relative;
+}
+.chat .bottom .down textarea {
+  padding: 5px;
+  height: 80px;
+  width: 100%;
+  resize: none;
+  font: normal normal 12px PingFangSC-Regular;
+}
+.chat .bottom .down button {
+  width: 50px;
+  height: 32px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  position: absolute;
+  background-color: #fd5e02;
+  font: normal normal 16px PingFangSC-Regular;
+  color: #ffffff;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+}
+.avatar-uploader .el-upload {
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.avatar-uploader .el-upload:hover {
+  border-color: #20a0ff;
+}
